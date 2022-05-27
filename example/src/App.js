@@ -10,7 +10,7 @@ class App extends Component {
     super(props);
     this.state = {
       main: true,
-      myAddress: "",
+      myAddress: "PAPA23PAWOROGLHBAL3DNHEFI76JNIET4N32OOJLJGQRKR4PMD4EE5M7PQ",
       recipient: "",
       amount: 0,
       note: "",
