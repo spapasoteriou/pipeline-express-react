@@ -39,9 +39,9 @@ class App extends Component {
   render() {
     return <div align="center" class="card">    
     <img alt="Pipeline Express" src={logo} width="300"></img><br></br>
-    <h5>
-    Algo Payment App 
-  </h5>
+    <h3>
+    ALGO Payment App 
+  </h3>
     <div class="toggle-select">
     <h5>
     MainNet:
