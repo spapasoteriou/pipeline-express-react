@@ -57,8 +57,7 @@ class App extends Component {
       <h3>{"My Address: " + this.state.myAddress}</h3>
       <form >
         <label class= "form-label">
-          Recipient: PAPA23.....5M7PQ 
-         
+         <h3>Recipient: PAPA23.....5M7PQ</h3>          
         </label><br></br>
         <label class="form-label">
           Amount:
