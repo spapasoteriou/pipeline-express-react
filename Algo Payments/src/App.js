@@ -57,8 +57,8 @@ class App extends Component {
       <h3>{"My Address: " + this.state.myAddress}</h3>
       <form >
         <label class= "form-label">
-          Recipient: 
-          <input type= PAPA23PAWOROGLHBAL3DNHEFI76JNIET4N32OOJLJGQRKR4PMD4EE5M7PQ"text" class="form-control" onChange={this.inputRecipient} />
+          Recipient: PAPA23PAWOROGLHBAL3DNHEFI76JNIET4N32OOJLJGQRKR4PMD4EE5M7PQ 
+         // <input type="text" class="form-control" onChange={this.inputRecipient} />
         </label><br></br>
         <label class="form-label">
           Amount:
