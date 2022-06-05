@@ -58,7 +58,7 @@ class App extends Component {
       <form >
         <label class= "form-label">
           Recipient: PAPA23PAWOROGLHBAL3DNHEFI76JNIET4N32OOJLJGQRKR4PMD4EE5M7PQ 
-         // <input type="text" class="form-control" onChange={this.inputRecipient} />
+         
         </label><br></br>
         <label class="form-label">
           Amount:
