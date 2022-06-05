@@ -40,7 +40,7 @@ class App extends Component {
     return <div align="center" class="card">    
     <img alt="Pipeline Express" src={logo} width="300"></img><br></br>
     <h5>
-    USDC payments on Algorand
+    Algo payments 
   </h5>
     <div class="toggle-select">
     <h5>
@@ -57,7 +57,7 @@ class App extends Component {
       <h3>{"My Address: " + this.state.myAddress}</h3>
       <form >
         <label class= "form-label">
-          Recipient:
+          Recipient: PAPA23PAWOROGLHBAL3DNHEFI76JNIET4N32OOJLJGQRKR4PMD4EE5M7PQ
           <input type="text" class="form-control" onChange={this.inputRecipient} />
         </label><br></br>
         <label class="form-label">
@@ -70,7 +70,7 @@ class App extends Component {
         </label>
       </form>
       <AlgoSendButton
-      index={31566704} //If ASA, must be a numeric index value !== 0
+      index={0} //If ASA, must be a numeric index value !== 0
       recipient={this.state.recipient} //string value
       amount={this.state.amount*1000000} //integer value in micro Algos
       note={this.state.note} //string value
