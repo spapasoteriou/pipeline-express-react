@@ -60,7 +60,7 @@ class App extends Component {
          <h3>Recipient: PAPA23.....5M7PQ</h3>          
         </label><br></br>
         <label class="form-label">
-          Amount:
+          Algo Amount:
           <input type="number" class="form-control" onChange={this.inputAmount} />
         </label>
         <label class="form-label"><br></br>
