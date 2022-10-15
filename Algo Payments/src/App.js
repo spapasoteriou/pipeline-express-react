@@ -39,9 +39,9 @@ class App extends Component {
   render() {
     return <div align="center" class="card">    
     <img alt="Pipeline Express" src={logo} width="300"></img><br></br>
-    <h1>
-    ALGO Payment App 
-  </h1>
+    <h2>
+    Algo Payment App 
+  </h2>
     <div class="toggle-select">
     <h5>
     MainNet:
@@ -60,7 +60,7 @@ class App extends Component {
          <h3>Recipient: datascientist.algo</h3>          
         </label><br></br>
         <label class="form-label">
-          Algo Amount:
+          Amount:
           <input type="number" class="form-control" onChange={this.inputAmount} />
         </label>
         <label class="form-label"><br></br>
